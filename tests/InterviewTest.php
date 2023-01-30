@@ -16,8 +16,9 @@ class InterviewTest extends PHPUnit\Framework\TestCase {
     public function testOrderArray()
     {
         $data = ["200", "450", "2.5", "1", "505.5", "2"];
+        
         $interview = new Interview();
-        var_dump($interview->SortArray($data));
+        
         $this->assertTrue(1 === $interview->SortArray($data)[0]);
         $this->assertTrue(2 === $interview->SortArray($data)[1]);
         $this->assertTrue(2.5 === $interview->SortArray($data)[2]);
