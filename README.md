@@ -1,4 +1,4 @@
 # run test code 
-$interview_hasitha> ./vendor/bin/phpunit tests
+$interview> ./vendor/bin/phpunit tests
 
  
